@@ -1,0 +1,122 @@
+/* Estilos generales */
+.tres-en-raya {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 300px;
+    background-color: #000; /* Fondo negro */
+    color: #0f0; /* Texto en verde neón */
+    box-shadow: 0px 0px 20px rgba(0, 255, 0, 0.5); /* Sombra verde neón */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+
+  
+  .board-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .square {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo negro con transparencia */
+    color: #0f0; /* Texto en verde neón */
+    border: 2px solid #0f0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.5); /* Sombra verde neón */
+  }
+  
+  .square:hover {
+    background-color: rgba(0, 255, 0, 0.2); /* Brillo verde neón al pasar el ratón */
+  }
+  
+  /* Estilos del ganador */
+  .winner {
+    background-color: #0f0; /* Fondo verde neón */
+    color: #000; /* Texto negro */
+  }
+  
+
+/* Contenedor para los botones de reinicio */
+.restart-buttons-container {
+  display: flex;
+  justify-content: space-between; /* Espacio entre los botones */
+  align-items: center; /* Alinea los botones verticalmente en el centro */
+  margin-top: 20px; /* Espacio superior entre el tablero y los botones */
+}
+
+/* Estilos para los botones de reinicio */
+.restart-button,
+.reset-score-button {
+  background-color: #0f0; /* Fondo verde neón */
+  color: #000; /* Texto negro */
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bolder;
+  border-radius: 5px;
+  width: 120px; /* Ancho fijo */
+  height: 50px; /* Alto fijo */
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.restart-button:hover,
+.reset-score-button:hover {
+  background-color: #0f0; /* Cambio de color al pasar el ratón */
+  color: #fff; /* Texto blanco */
+  box-shadow: 0px 0px 15px rgba(0, 0, 255, 0.7); /* Sombra azul neón */
+}
+
+/* Resto de tus estilos... */
+
+
+
+
+  .label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333; /* Color de texto gris oscuro */
+  }
+  
+  /* Añade estos estilos para posicionar los marcadores de Jugador 1 y Jugador 2 */
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.player-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.player-score p {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Estilos existentes... */
+.tres-en-raya {
+  text-align: center;
+}
+
+/* Resto de tus estilos... */
